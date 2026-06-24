@@ -1,0 +1,16 @@
+{
+  "tasks": [
+    {
+      "id": 990134487130181633,
+      "job_id": "ccc69fc1-f0b2-423e-9e64-b86dbf557610",
+      "query": "REPLICATE [Test2002__account_cdata_r_temp__c] SELECT * FROM [Salesforce].[Test2002__account_cdata_r_temp__c]",
+      "is_active": true
+    },
+    {
+      "id": 990149616626438145,
+      "job_id": "ccc69fc1-f0b2-423e-9e64-b86dbf557610",
+      "query": "REPLICATE [Task] SELECT * FROM [Salesforce].[Task]",
+      "is_active": true
+    }
+  ]
+}

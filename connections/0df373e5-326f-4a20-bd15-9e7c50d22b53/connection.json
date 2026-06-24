@@ -1,0 +1,24 @@
+{
+  "id": "0df373e5-326f-4a20-bd15-9e7c50d22b53",
+  "display_name": "SQLServer_dest",
+  "name": "sqlserver_dest",
+  "connector": {
+    "name": "SQL Server",
+    "version": "latest"
+  },
+  "properties": {
+    "Server": "localhost",
+    "Database": "test",
+    "Password": "SECURE:k4vrqO6rH9kk86d9PwfctfhMWWUTKX4HXbGxzaLxdzhifEV55aJZjP44fdq8O6TsrCEh8OrZg8Rj3Gs=",
+    "Port": "1433",
+    "TrustServerCertificate": "True",
+    "User": "sa"
+  },
+  "labels": [],
+  "settings": {
+    "verbosity": 0,
+    "use_cdata_callback_url": 0,
+    "metadata_refresh_interval": 3600,
+    "use_sync_proxy": 0
+  }
+}

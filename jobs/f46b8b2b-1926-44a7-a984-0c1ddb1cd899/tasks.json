@@ -1,0 +1,10 @@
+{
+  "tasks": [
+    {
+      "id": 990137587144462336,
+      "job_id": "f46b8b2b-1926-44a7-a984-0c1ddb1cd899",
+      "query": "REPLICATE [Test2002__account_cdata_r_temp__c] WITH DeltaSnapshotKey = 'Test2002__account_external_id__c' SELECT [Test2002__account_external_id__c], [Name] FROM [dbo].[Test2002__account_cdata_r_temp__c]",
+      "is_active": true
+    }
+  ]
+}

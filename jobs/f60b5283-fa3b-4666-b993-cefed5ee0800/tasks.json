@@ -1,0 +1,10 @@
+{
+  "tasks": [
+    {
+      "id": 990149358311837696,
+      "job_id": "f60b5283-fa3b-4666-b993-cefed5ee0800",
+      "query": "REPLICATE [Salesforce].[Task] WITH DeltaSnapshotKey = 'Id' SELECT [Id], [Status] FROM [dbo].[Task]",
+      "is_active": true
+    }
+  ]
+}
