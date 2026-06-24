@@ -1,0 +1,10 @@
+{
+  "tasks": [
+    {
+      "id": 990161146537447425,
+      "job_id": "efdc5f0a-5637-44bf-bad1-6c92baed8d51",
+      "query": "insert into table1 values(12,'egtgt',25)",
+      "is_active": true
+    }
+  ]
+}

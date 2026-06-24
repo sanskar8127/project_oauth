@@ -1,0 +1,23 @@
+{
+  "id": "95713927-2bf3-4f54-84d5-f89df8bf6585",
+  "display_name": "salesforceconn",
+  "name": "salesforceconn",
+  "connector": {
+    "name": "CData Salesforce",
+    "version": "latest"
+  },
+  "properties": {
+    "AuthScheme": "Basic",
+    "Password": "SECURE:WV6WupU94dWJa/J6kunsrAqpLkJTdRaRj0Lxaja7r1VdWIFVisD6jg/yqE7ZA7fdt1AzpkSk5/1vcaEUPMzsMqoe7sE=",
+    "SecurityToken": "SECURE:zOWWz0CaufN3dDm7bm56LnAOVEryjC1M0munFTzzy9nHObZ4bxyCeU7wT6ZvPZvTIwLUt1CfZMhN57qOUbZUGLdMZJsC6HoiTg==",
+    "Scope": "refresh_token api",
+    "User": "donaldc@cdatasoftware.com"
+  },
+  "labels": [],
+  "settings": {
+    "verbosity": 0,
+    "use_cdata_callback_url": 0,
+    "metadata_refresh_interval": 3600,
+    "use_sync_proxy": 0
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "id": "ccc69fc1-f0b2-423e-9e64-b86dbf557610",
+  "name": "SalesforcetoSQLServer",
+  "pipeline_id": null,
+  "type": 1,
+  "source_connector": "salesforceconn",
+  "destination_connector": "sqlserver_dest",
+  "schedule": {
+    "enabled": false,
+    "cron": ""
+  },
+  "alerts": {
+    "send_email": false,
+    "email_to": "",
+    "email_error_only": false
+  },
+  "properties": {
+    "enable_parallel_processing": false,
+    "worker_pool": 2,
+    "verbosity": 2,
+    "destination_schema": "dbo",
+    "automatic_job_retry": false
+  },
+  "replicate_options": {
+    "replicate_start_date": null,
+    "replicate_interval": 180,
+    "replicate_interval_unit": "days",
+    "snapshot_size": "1000000",
+    "skip_snapshot": "false",
+    "alter_schema": true,
+    "drop_table": true,
+    "truncate_table_data": false,
+    "table_name_prefix": "",
+    "table_name_suffix": "",
+    "continue_on_error": true,
+    "deletion_behavior": "HardDelete",
+    "insert_mode": "FilePerBatch",
+    "auto_truncate_Strings": true,
+    "use_gmt_datetime": false,
+    "command_timeout": 300,
+    "additional_options": ""
+  },
+  "events": {
+    "pre_job": "990125403349848064",
+    "post_job": "990125403387596800"
+  },
+  "labels": []
+}

@@ -1,0 +1,48 @@
+{
+  "id": "e575f66e-c479-4456-9635-86a8d8e4d67e",
+  "name": "RETL_upsert_SoftDelete",
+  "pipeline_id": null,
+  "type": 10,
+  "source_connector": "sqlserver_src",
+  "destination_connector": "salesforceconn",
+  "schedule": {
+    "enabled": false,
+    "cron": ""
+  },
+  "alerts": {
+    "send_email": false,
+    "email_to": "",
+    "email_error_only": false
+  },
+  "properties": {
+    "enable_parallel_processing": false,
+    "worker_pool": 2,
+    "verbosity": 5,
+    "destination_schema": "",
+    "automatic_job_retry": false
+  },
+  "replicate_options": {
+    "replicate_start_date": null,
+    "replicate_interval": 180,
+    "replicate_interval_unit": "days",
+    "snapshot_size": "1000000",
+    "skip_snapshot": "false",
+    "alter_schema": true,
+    "drop_table": false,
+    "truncate_table_data": false,
+    "table_name_prefix": "",
+    "table_name_suffix": "",
+    "continue_on_error": true,
+    "deletion_behavior": "SkipDelete",
+    "insert_mode": "FilePerBatch",
+    "auto_truncate_Strings": true,
+    "use_gmt_datetime": false,
+    "command_timeout": 300,
+    "additional_options": ""
+  },
+  "events": {
+    "pre_job": "990137286769381376",
+    "post_job": "990137286777769984"
+  },
+  "labels": []
+}
